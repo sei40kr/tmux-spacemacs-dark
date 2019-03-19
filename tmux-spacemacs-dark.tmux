@@ -14,7 +14,7 @@ main() {
   tmux set-option -g pane-active-border-style 'fg=#111111'
   tmux set-option -g status-left ' #S '
   tmux set-option -g status-left-style 'bg=#fdab08,fg=#121212'
-  tmux set-option -g status-right ' #{online_status} #[bg=#57557f] %Y/%m/%d %a %H:%m '
+  tmux set-option -g status-right ' #{online_status} #[bg=#57557f] %Y/%m/%d %a %H:%M '
   tmux set-option -g status-right-style 'bg=#121212,fg=#b2b2b2'
   tmux set-option -g status-style 'bg=#121212,fg=#b2b2b2'
   tmux set-option -g window-status-activity-style 'bg=#121212,fg=#d75fd7'
